@@ -1,0 +1,34 @@
+{
+    "name": "anax/weather",
+    "type": "library",
+    "description": "Anax weather module.",
+    "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
+    "homepage": "https://dbwebb.se/anax",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Borg",
+            "email": "martin.d@live.se",
+            "homepage": "",
+            "role": "Student"
+        }
+    ],
+    "support": {
+        "issues": ""
+    },
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2",
+        "anax/commons": "^2.0.0@beta"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "anax/anax-lite": "^1.0.24"
+    }
+}
