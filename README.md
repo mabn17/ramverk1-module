@@ -20,10 +20,10 @@ Install using composer and then integrate the module with your Anax installation
 
 ## Install with composer
 
-We install the Weather app as a module from Packagist.
+We install the Weather app as a module from [Packagist](https://packagist.org/packages/mabn17/weather).
 
 ```
-composer require anax/weather
+composer require mabn17/weather
 ```
 
 ### Automatic Installation (optionall)
