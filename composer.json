@@ -1,34 +1,28 @@
 {
-    "name": "anax/weather",
+    "name": "mabn17/weather",
     "type": "library",
-    "description": "Anax weather module.",
+    "description": "A weather module for the anax framework.",
     "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
-    "homepage": "https://dbwebb.se/anax",
+    "homepage": "https://github.com/mabn17/ramverk1-module",
     "license": "MIT",
     "authors": [
         {
             "name": "Martin Borg",
             "email": "martin.d@live.se",
-            "homepage": "",
-            "role": "Student"
+            "homepage": "https://github.com/mabn17",
+            "role": "Developer"
         }
     ],
     "support": {
-        "issues": ""
+        "issues": "https://github.com/mabn17/ramverk1-module/issues"
     },
     "autoload": {
         "psr-4": {
             "Anax\\": "src/"
         }
     },
-    "minimum-stability": "beta",
-    "prefer-stable": true,
     "require": {
         "php": ">=7.2",
         "anax/commons": "^2.0.0@beta"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7",
-        "anax/anax-lite": "^1.0.24"
     }
 }
