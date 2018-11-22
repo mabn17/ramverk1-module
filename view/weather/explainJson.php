@@ -30,10 +30,10 @@ $myIp = getMyIp(); */
     <h2 class="">Prova</h2>
     <div class="row d-flex">
         <div class="col">
-            <a href="<?= url("v-json/forecast/karlskrona") ?>">Exepmel</a> på hur standard svaret ser ut från Karlskrona.
+            <a href="<?= /** @scrutinizer ignore-call */ url("v-json/forecast/karlskrona") ?>">Exepmel</a> på hur standard svaret ser ut från Karlskrona.
         </div>
         <div class="col">
-            <a href="<?= url("v-json/forecast/karlskrona?days=1") ?>">Exepmel</a> på hur standard svaret ser ut från Karlskrona med limiterade dagar.
+            <a href="<?= /** @scrutinizer ignore-call */ url("v-json/forecast/karlskrona?days=1") ?>">Exepmel</a> på hur standard svaret ser ut från Karlskrona med limiterade dagar.
         </div>
     </div>
     <h2>Request Parametrar</h2>
