@@ -12,7 +12,7 @@ It also contains a REST api with HTTP method GET. The route takes a location as 
 
 # Install and setup Anax
 
-First install your own version of Anax.
+First install your own version of [Anax](https://packagist.org/packages/anax/anax-ramverk1-me).
 
 # Install the weather app as part of Anax
 
