@@ -42,7 +42,7 @@ class WeatherJsonController implements ContainerInjectableInterface
     {
         $page = $this->di->get("page");
         $page->add(
-            "anax/v2/weather/explainJson",
+            "view/weather/explainJson", // anax/v2/weather/explainJson
             [
                 "title" => "Väder app",
             ]

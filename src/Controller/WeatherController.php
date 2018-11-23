@@ -46,7 +46,7 @@ class WeatherController implements ContainerInjectableInterface
         $weather = $this->di->get("weather");
         $test = $session->get('test');
         $page->add(
-            "anax/v2/weather/index",
+            ANAX_INSTALL_PATH . "/view/weather/index", // "anax/v2/weather/index"
             [
                 "jsonData" => $session->get('jsonData'),
                 "locationData" => $session->get('locationData'),
