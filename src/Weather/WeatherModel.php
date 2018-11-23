@@ -111,10 +111,10 @@ class WeatherModel
             return [[]];
         }
 
-        return $this->startMultiCurl();
+        return $this->startMultiCurl($urls);
     }
 
-    public function startMultiCurl(array $handles = [], array $htmls = []) : array
+    public function startMultiCurl(array $urls, array $handles = [], array $htmls = []) : array
     {
         $multi = curl_multi_init();
 
