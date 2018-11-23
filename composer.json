@@ -29,7 +29,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^7",
-        "anax/anax-lite": "^1.0.24"
+        "anax/anax-lite": "^1.0.24",
+        "anax/view": "^2.0.0@alpha",
+        "anax/page": "^2.0.0@alpha"
     },
     "repositories": [
         {
