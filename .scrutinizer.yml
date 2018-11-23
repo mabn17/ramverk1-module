@@ -5,7 +5,8 @@ filter:
     excluded_paths: [vendor/*, test/*]
 
 build:
-
+    environment:
+            php: 7.2
     dependencies:
         before:
             -
@@ -19,4 +20,5 @@ build:
                 command: "vendor/bin/phpunit --configuration .phpunit.xml"
                 coverage:
                     file: "build/coverage.clover"
-format: "php-clover"
+                    format: "php-clover"
+
