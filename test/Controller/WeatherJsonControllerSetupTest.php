@@ -3,11 +3,17 @@ namespace Anax\Controller;
 
 use Anax\DI\DIFactoryConfig;
 use PHPUnit\Framework\TestCase;
+
 /**
- * Test for setting up the.
+ * Test for setting up the Weather controller.
  */
-class WeatherControllerTest extends TestCase
+class WeatherJsonControllerTest extends TestCase
 {
+    /**
+     * @var Anax\DI\DIFactoryConfig            $di
+     */
+    private $di;
+
     /**
      * Setup before each testcase
      */
@@ -17,19 +23,19 @@ class WeatherControllerTest extends TestCase
         $this->di->loadServices(ANAX_INSTALL_PATH . "/config/di");
         $this->di->loadServices(ANAX_INSTALL_PATH . "/test/config/di");
     }
+
     /**
      * Create an object.
      */
     public function testCreate()
     {
         // Create using new
-        $rem = new WeatherController();
-        $this->assertInstanceOf("Anax\Controller\WeatherController", $rem);
+        $weatherJson = new WeatherJsonController();
+        $this->assertInstanceOf("Anax\Controller\WeatherJsonController", $weatherJson);
         // Inject needed
-        $obj = $rem->setDI($this->di);
-        $this->assertEquals($rem, $obj);
+        $obj = $weatherJson->setDI($this->di);
+        $this->assertEquals($weatherJson, $obj);
         // Initialize
-        $rem->initialize();
+        $weatherJson->initialize();
     }
 }
-
