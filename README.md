@@ -28,19 +28,15 @@ We install the Weather app as a module from [Packagist](https://packagist.org/pa
 composer require mabn17/weather
 ```
 
-### Automatic Installation (optionall)
-
-If you want an automatic installation run `script/install.bash`. Make sure you stand in the root directory of anax when you run it. **Dont** forget to change the values inside `config/weather`. 
-
 ## Configuration files for weather
 
 We need to copy the configuration files for the weather module.
 
 ```
-rsync -av vendor/anax/weather/config/keys.php config
+rsync -av vendor/anax/weather/config/keys.php config/
 ```
 
-**Note:** Remember to change the values to your own API keys.
+**Note:** Remember to change the value to your own [DarkSky](https://darksky.net/) API key.
 
 ## Views & Documentation
 
@@ -51,6 +47,17 @@ rsync -av vendor/anax/weather/view/weather view/anax/v2/
 ```
 
 If you would like to change the documentation to markdown then create a new file in `anax/content/`. The route will have the same name as your .md file has.
+
+## Controllers and Models
+
+Move the files in `vendor/anax/weather/src/Controller/` into `src/Controller/` then change ```$page->add(/view/weather/name)``` to the commented line in both controller classes.
+
+Move `vendor/anax/weather/src/Weather` folder into the `src/` folder.
+
+```
+rsync -av vendor/anax/weather/src/Controller/ src/Controller/
+rsync -av vendor/anax/weather/src/Weather src/
+```
 
 ## Router files
 
