@@ -35,7 +35,7 @@ composer require mabn17/weather
 We need to copy the configuration files for the weather module.
 
 ```
-rsync -av vendor/anax/weather/config/keys.php config/
+rsync -av vendor/mabn17/weather/config/keys.php config/
 ```
 
 **Note:** Remember to change the value to your own [DarkSky](https://darksky.net/) API key.
@@ -45,38 +45,38 @@ rsync -av vendor/anax/weather/config/keys.php config/
 We need to copy the API documentation and the weather module views.
 
 ```
-rsync -av vendor/anax/weather/view/weather view/anax/v2/
+rsync -av vendor/mabn17/weather/view/weather view/anax/v2/
 ```
 
 If you would like to change the documentation to markdown then create a new file in `anax/content/`. The route will have the same name as your .md file has.
 
 ## Controllers and Models
 
-Move the files in `vendor/anax/weather/src/Controller/` into `src/Controller/` then change ```$page->add(/view/weather/name)``` to the commented line in both controller classes.
+Move the files in `vendor/mabn17/weather/src/Controller/` into `src/Controller/` then change ```$page->add(/view/weather/name)``` to the commented line in both controller classes.
 
-Move `vendor/anax/weather/src/Weather` folder into the `src/` folder.
+Move `vendor/mabn17/weather/src/Weather` folder into the `src/` folder.
 
 ```
-rsync -av vendor/anax/weather/src/Controller/ src/Controller/
-rsync -av vendor/anax/weather/src/Weather src/
+rsync -av vendor/mabn17/weather/src/Controller/ src/Controller/
+rsync -av vendor/mabn17/weather/src/Weather src/
 ```
 
 ## Router files
 
-You need to include the router file in your router configuration `anax/config/router/`. There is a sample you can use in `/config/router/902_vader.php`.
+You need to include the router file in your router configuration `anax/config/router/`. There is a sample you can use in `vendor/mabn17/config/router/902_vader.php`.
 
 ```
-rsync -av vendor/anax/weather/config/router/902_vader.php config/router/
+rsync -av vendor/mabn17/anax/weather/config/router/902_vader.php config/router/
 ```
 
 ## DI Services
 
 You need to add the configuration file for di.
 
-You need to add the configuration for the di services `anax/config/di/`. There is a sample you can use in `config/di/weather.php`.
+You need to add the configuration for the di services `anax/config/di/`. There is a sample you can use in `vendor/mabn17config/di/weather.php`.
 
 ```
-rsync -av vendor/anax/weather/config/di/weather.php config/di/
+rsync -av vendor/mabn17/weather/config/di/weather.php config/di/
 ```
 
 ## License

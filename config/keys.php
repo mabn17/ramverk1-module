@@ -5,5 +5,5 @@
  *      Change the values to ur own key (This key wont work)
  */
 return [
-    "darksky" => "48fbf9f35f861442c7c28f874d59338d",
+    "darksky" => "10c088474cebe4d97ba4bb9dc4a17382",
 ];
