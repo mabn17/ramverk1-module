@@ -11,13 +11,13 @@ build:
             -
                 command: "mkdir build"
         after:
-            - "make test"
+            - "composer require --dev phpunit/phpunit"
 
     tests:
         override:
             -
                 command: "vendor/bin/phpunit --configuration .phpunit.xml"
                 coverage:
-                    file: "build/coverage.clover"
+                    file: "build/coverage.xml"
                     format: "php-clover"
 
