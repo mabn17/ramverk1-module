@@ -1,10 +1,10 @@
 # Anax weather module
 
-[![Latest Stable Version](https://poser.pugx.org/mabn17/weather/v/stable)](https://packagist.org/packages/mabn17/weather)
+[![Latest Stable Version](https://poser.pugx.org/mabn17/weather/v/stable)](https://packagist.org/packages/mabn17/weather) [![License](https://poser.pugx.org/mabn17/weather/license)](https://packagist.org/packages/mabn17/weather)
 
 [![Build Status](https://travis-ci.org/mabn17/ramverk1-module.svg?branch=master)](https://travis-ci.org/mabn17/ramverk1-module) [![Build Status](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/build-status/master) [![Code Intelligence Status](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/?branch=master)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4262d51ce4d0497ab650d1396bc947ba)](https://www.codacy.com/app/mabn17/ramverk1-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mabn17/ramverk1-module&amp;utm_campaign=Badge_Grade) [![Code Coverage](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4262d51ce4d0497ab650d1396bc947ba)](https://www.codacy.com/app/mabn17/ramverk1-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mabn17/ramverk1-module&amp;utm_campaign=Badge_Grade) [![Maintainability](https://api.codeclimate.com/v1/badges/3333cfa8ac852876254e/maintainability)](https://codeclimate.com/github/mabn17/ramverk1-module/maintainability) [![Code Coverage](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mabn17/ramverk1-module/?branch=master)
 
 Anax weather module implementing a weather application.
 

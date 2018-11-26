@@ -1,6 +1,13 @@
 # Revision history
 
+v1.1.2 (2018-12-26)
+-------------------
+* Added Licence badge from pakagist
+* Added Maintainability badge from codeclimate
+
+
 v1.1.1 (2018-12-24)
+-------------------
 * Fixed multi_curl complexity.
 
 v1.1.0 (2018-12-23)
