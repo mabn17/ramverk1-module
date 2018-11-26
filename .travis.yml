@@ -2,18 +2,19 @@ language: php
 
 php:
     - "7.2"
+    - "7.3"
     - hhvm
     - nightly
-
-matrix:
-    allow_failures:
-        - php: nightly
-        - php: hhvm
 
 sudo: false
 
 git:
     submodules: false
+
+matrix:
+    allow_failures:
+        - php: nightly
+        - php: hhvm
 
 before_script:
     - make install
