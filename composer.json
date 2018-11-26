@@ -36,7 +36,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:mabn17/ramverk1-module.git"
+            "url": "git@github.com:mabn17/ramverk1-module.git",
+            "no-api": true
         }
     ]
 }
