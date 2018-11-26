@@ -10,6 +10,7 @@ sudo: false
 
 git:
     submodules: false
+    lfs_skip_smudge: true
 
 matrix:
     allow_failures:
